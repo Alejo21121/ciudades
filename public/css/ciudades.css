@@ -1,0 +1,136 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8fff8;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #2e7d32;
+    }
+
+    .search-form {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .search-form input[type="text"] {
+        padding: 10px;
+        border: 2px solid #a5d6a7;
+        border-radius: 5px;
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .search-form button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .search-form button:hover {
+        background-color: #388e3c;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        background-color: #ffffff;
+        border: 1px solid #a5d6a7;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        border: 1px solid #c8e6c9;
+        text-align: center;
+    }
+
+    th {
+        background-color: #66bb6a;
+        color: white;
+    }
+
+    th a {
+        color: white;
+        text-decoration: none;
+    }
+
+    th a:hover {
+        text-decoration: underline;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f1f8e9;
+    }
+
+    tr:hover {
+        background-color: #e8f5e9;
+    }
+
+    /* Estado activo/inactivo */
+    td.estado-activo {
+        color: green;
+        font-weight: bold;
+    }
+
+    td.estado-inactivo {
+        color: red;
+        font-weight: bold;
+    }
+
+    .form-verde input,
+    .form-verde select,
+    .form-verde button {
+        display: block;
+        margin: 10px 0;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    .form-verde button,
+    .btn-crear,
+    .btn-editar,
+    .btn-eliminar {
+        background-color: #2ecc71;
+        border: none;
+        color: white;
+        padding: 6px 12px;
+        margin: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .btn-eliminar {
+        background-color: #e74c3c;
+    }
+
+    .btn-editar {
+        background-color: #3498db;
+    }
+    
+        /* Estilo para el botón "Agregar Imagen" */
+    .btn-agregar-imagen {
+        display: inline-block;
+        padding: 8px 14px;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        border: none;
+        font-size: 13px;
+    }
+
+    .btn-agregar-imagen:hover {
+        background-color: #45a049;
+    }
+
+

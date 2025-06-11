@@ -14,6 +14,10 @@
             @csrf
             <label for="imagen">Seleccionar imagen:</label>
             <input type="file" name="imagen" required>
+            @if ($errors->has('imagen'))
+                <div class="error">{{ $errors->first('imagen') }}</div>
+            @endif
+
             <button type="submit">Guardar Imagen</button>
         </form>
 

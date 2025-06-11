@@ -105,7 +105,7 @@ class CiudadController extends Controller
     public function guardarImagen(Request $request, $id)
     {
         $request->validate([
-            'imagen' => 'required|image|max:2048', // valida que sea imagen y no muy grande
+            'imagen' => 'required|image|mimes:jpeg,png,jpg,gif,svg,webp|max:2048',
         ]);
 
         $ciudad = Ciudad::findOrFail($id);

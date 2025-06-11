@@ -72,3 +72,8 @@ body {
     color: #1b5e20;
     text-decoration: underline;
 }
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
